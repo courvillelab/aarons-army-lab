@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>People</title>
+  <meta name="description" content="We are the Aaron's Army Lab. ">
+
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <script src="javascripts/libs.js" type="text/javascript"></script>
+  <script>
+    // terrificjs bootstrap
+    (function ($) {
+      $(document).ready(function () {
+        var $page = $('body');
+        var config = {
+          dependencyPath: {
+            plugin: 'javascripts/'
+          }
+        }
+        var application = new Tc.Application($page, config);
+        application.registerModules();
+        application.start();
+      });
+    })(Tc.$);
+  </script>
+  <link rel="icon" type="image/png" href="static/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet"
+    type="text/css" />
+  <script src="javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="javascripts/slick.min.js" type="text/javascript"></script>
+  <script src="javascripts/json2.js" type="text/javascript"></script>
+  <link rel="canonical" href="index.html">
+  <link rel="alternate" type="application/rss+xml" title="WEIRD Lab"
+    href="https://weirdlab.cs.washington.edu/feed.xml" />
+</head>
+
+
+<body>
+
+  <div class='contain-to-grid sticky'>
+    <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+      <ul class='title-area'>
+        <li class='name'>
+          <h1>
+            <a class="logo" href='index.html'>
+              <img alt="" src="static/images/logo.png"
+                style="width:180px;margin-bottom:10px" />
+            </a>
+          </h1>
+        </li>
+        <li class='toggle-topbar menu-icon'>
+          <a href='people.html#'>Menu</a>
+        </li>
+      </ul>
+      <section class='top-bar-section'>
+        <ul class="right">
+          <li class="">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="active">
+            <a href="people.html">People</a>
+          </li>
+          <li class="">
+            <a href="publications.html">Publications</a>
+          </li>
+          <!-- <li class="">
+            <a href="outreach.html">Outreach</a>
+          </li> -->
+          <li class="">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+
+
+  <div id='main' role='main'>
+    <div class='full'>
+      <div class='row'>
+        <div class='large-12 columns'>
+
+          <div class='myGallery'>
+            <div>
+              <img src="static/images/people/aaron.png" />
+              <br>
+              <span class="name">Aaron Courville </span> 
+              <br>
+              <i> Associate Professor </i>
+              <br>
+              <a class="icon" href="https://mila.quebec/en/directory/aaron-courville">
+                <i class="fa fa-home"></i>
+              </a>
+              <a class="icon" href="https://x.com/AaronCourville">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+
+            <!-- Postdocs -->
+            <!-- <div>
+              <img src="static/images/people/tyler.jpeg" />
+              <br>
+              <span class="name">Tyler Westenbroek</span> 
+              <br>
+              <i> Postdoc </i>
+              <br>
+              <a class="icon" href="https://tyler-westenbroek.github.io/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div> -->
+            
+            <!-- PhD Students -->
+            <div>
+              <img src="static/images/people/johan.png" />
+              <br>
+              <span class="name">Johan Obando-Ceron </span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://johanobandoc.github.io">
+                <i class="fa fa-home"></i>
+              </a>
+              <a class="icon" href="https://x.com/johanobandoc">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/michael.png" />
+              <br>
+              <span class="name">Michael Noukhovitch</span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://mnoukhov.github.io">
+                <i class="fa fa-home"></i>
+              </a>
+              <a class="icon" href="https://x.com/mnoukhov">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/andrei.png" />
+              <br>
+              <span class="name">Andrei Nicolicioiu</span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://andreinicolicioiu.github.io">
+                <i class="fa fa-home"></i>
+              </a>
+              <a class="icon" href="https://x.com/anNicolicioiu">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/ayush.png" />
+              <br>
+              <span class="name">Ayush Agrawal </span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://ayush1801.github.io">
+                <i class="fa fa-home"></i>
+              </a>
+              <!-- <a class="icon" href="https://twitter.com/mateoguaman">
+                <i class="fa fa-twitter"></i>
+              </a> -->
+            </div>
+
+            <!-- div>
+              <img src="static/images/people/daphne.jpg" />
+              <br>
+              <span class="name">Daphne Chen </span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+            </div>
+            <div>
+              <img src="static/images/people/sriyash.jpeg" />
+              <br>
+              <span class="name">Sriyash Poddar </span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://sriyash.me/">
+                <i class="fa fa-home"></i>
+              </a>
+              <a class="icon" href="https://twitter.com/sriyash421">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/yunchu.jpg" />
+              <br>
+              <span class="name">Yunchu Zhang </span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://yunchuzhang.github.io/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/patrick.jpg" />
+              <br>
+              <span class="name">Patrick Yin </span> 
+              <br>
+              <i> PhD Student </i>
+              <br>
+              <a class="icon" href="https://patrickyin.me/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div> -->
+            
+            <!-- Master Students -->
+            <!-- <div>
+              <img src="static/images/people/siri.jpeg" />
+              <br>
+              <span class="name">Siri Gadipudi </span>
+              <br>
+              <i> MS Student </i>
+              <br>
+            </div> -->
+<!--             <div>
+              <img src="/static/images/people/macha.jpg" />
+              <br>
+              <span class="name">Macha Vidyaaranya </span>
+              <br>
+              <i> MS Student </i>
+              <br>
+            </div> -->
+<!--             <div>
+              <img src="/static/images/people/tejoram.jpg" />
+              <br>
+              <span class="name">Tejoram Vivekanandan </span>
+              <br>
+              <i> MS Student </i>
+              <br>
+            </div> -->
+            <!-- <div>
+              <img src="static/images/people/alan.jpg" />
+              <br>
+              <span class="name">Alan Wu </span>
+              <br>
+              <i> MS Student </i>
+              <br>
+            </div>
+            <div>
+              <img src="static/images/people/carrie.jpeg" />
+              <br>
+              <span class="name">Carrie Yuan </span>
+              <br>
+              <i> MS Student </i>
+              <br>
+            </div> -->
+
+            <!-- Undergrads -->
+            <!-- <div>
+              <img src="static/images/people/samedh.jpg" />
+              <br>
+              <span class="name">Samedh Desai </span>
+              <br>
+              <i> Undergrad </i>
+              <br>
+              <a class="icon" href="https://www.linkedin.com/in/sdesai1287/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/karthikeya.jpg" />
+              <br>
+              <span class="name">Karthikeya Vemuri </span>
+              <br>
+              <i> Undergrad </i>
+              <br>
+              <a class="icon" href="https://www.linkedin.com/in/karthikeya-vemuri/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/davin.jpeg" />
+              <br>
+              <span class="name">Davin Tija </span>
+              <br>
+              <i> Undergrad </i>
+              <br>
+              <a class="icon" href="https://www.linkedin.com/in/davin-tjia/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+            <div>
+              <img src="static/images/people/jacob.jpg" />
+              <br>
+              <span class="name">Jacob Berg </span>
+              <br>
+              <i> Undergrad </i>
+              <br>
+            </div>
+            <div>
+              <img src="static/images/people/henri.jpg" />
+              <br>
+              <span class="name">Henri Fung </span>
+              <br>
+              <i> Undergrad </i>
+              <br>
+              <a class="icon" href="https://www.linkedin.com/in/kai-kwan-fung-henri/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+             -->
+
+            <!-- <div>
+              <img src="static/images/people/max.jpeg" />
+              <br>
+              <span class="name">Max Balsells </span>
+              <br>
+              <i> Collaborator </i>
+              <br>
+              <a class="icon" href="https://www.linkedin.com/in/max-balsells/?originalSubdomain=es">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+
+            <div>
+              <img src="static/images/people/marcel.png" />
+              <br>
+              <span class="name">Marcel Torne </span>
+              <br>
+              <i> Collaborator </i>
+              <br>
+              <a class="icon" href="https://www.linkedin.com/in/marceltorne/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+
+            <div>
+              <img src="static/images/people/max_simchowitz.jpeg" />
+              <br>
+              <span class="name">Max Simchowitz </span>
+              <br>
+              <i> Collaborator </i>
+              <br>
+              <a class="icon" href="https://msimchowitz.github.io/">
+                <i class="fa fa-home"></i>
+              </a>
+            </div>
+
+
+            <div>
+              <img src="static/images/people/andrew.jpeg" />
+              <br>
+              <span class="name">Andrew Wagenmaker</span>
+              <br>
+              <i> Collaborator </i>
+              <br>
+              <a class="icon" href="https://homes.cs.washington.edu/~ajwagen/index.html">
+                <i class="fa fa-home"></i>
+              </a>
+            </div> -->
+            
+
+            <!-- Placeholders -->
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          <div class='spacing'></div>
+          <div class='myGallery'>
+
+            <!-- Placeholders -->
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+
+          <!-- <br>
+          <h2> Alumni </h2>
+          <hr>
+
+          <h3> PhD students </h3>
+          <ul>
+            <li></li>
+          </ul>
+
+          <h3> Visiting PhD students </h3>
+          <ul>
+            <li></li>
+          </ul>
+
+          <h3> Masters students </h3>
+          <ul>
+            <li></li>
+          </ul>
+
+          <h3> Undergrads </h3>
+          <ul>
+            <li></li>
+          </ul>
+          <p></p> -->
+
+
+          <div class='spacing'></div>
+          <div class='three spacing'></div>
+        </div>
+      </div>
+      <div class='spacing'></div>
+    </div>
+  </div>
+
+  <!-- <div id="footer">
+    <div class='row'>
+      <hr />
+      <p class="copyright text-right">
+        Template from <a href="https://irislab.stanford.edu/">IRIS Lab</a>
+      </p>
+    </div>
+  </div> -->
+
+  <script src="javascripts/jquery.countTo.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.appear.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.validate.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+  <script src="javascripts/app.js" type="text/javascript"></script>
+
+
+
+
+</body>
+
+</html>
