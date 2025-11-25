@@ -5532,3 +5532,15 @@ ul li::marker {
   font-size: 18px !important;   /* active dot even bigger */
   opacity: 1 !important;
 }
+
+/* ---------------------------------------
+   AARON'S ARMY – PEOPLE PAGE STYLING
+   --------------------------------------- */
+
+.myGallery .name {
+  font-family: 'Raleway', sans-serif;
+  color: var(--mila-purple);
+  font-size: 15px;
+  font-weight: 700;
+}
+
